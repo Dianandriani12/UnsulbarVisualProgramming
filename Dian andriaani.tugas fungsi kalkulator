@@ -1,0 +1,6 @@
+Private Sub btnBersihkan_Click(sender As Object, e As EventArgs) Handles btnBersihkan.Click
+        txtBil1.Text = "0"
+        txtBil2.Text = "0"
+        lbHasil.Text = "####"
+        txtBil1.Focus()
+    End Sub
