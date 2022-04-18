@@ -1,0 +1,13 @@
+Public Function hitung(ByVal bil1 As Integer, ByVal bil2 As Integer)
+        Dim hasil As Integer
+        If cmbOperator.Text = "+" Then
+            hasil = bil1 + bil2
+        ElseIf cmbOperator.Text = "-" Then
+            hasil = bil1 - bil2
+        ElseIf cmbOperator.Text = "*" Then
+            hasil = bil1 * bil2
+        ElseIf cmbOperator.Text = "/" Then
+            hasil = bil1 / bil2
+        End If
+        Return hasil
+    End Function
