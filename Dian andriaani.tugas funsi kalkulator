@@ -1,0 +1,5 @@
+Private Sub btnHitung_Click(sender As System.Object, e As System.EventArgs) Handles btnHitung.Click
+        Dim hasilhitung As Integer
+        hasilhitung = hitung(txtBil1.Text, txtBil2.Text)
+        lbHasil.Text = hasilhitung
+    End Sub
